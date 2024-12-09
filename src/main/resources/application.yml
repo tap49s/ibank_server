@@ -5,9 +5,9 @@ server:
 
 spring:
   datasource:
-    url: ${DB_URL}
-    username: ${DB_USERNAME}
-    password: ${DB_PASSWORD}
+    url: jdbc:mysql://db-mysql-nyc3-32977-do-user-16182263-0.m.db.ondigitalocean.com:25060/defaultdb
+    username: doadmin
+    password: AVNS_RAvkBVBBe1taqTd_b7s
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
